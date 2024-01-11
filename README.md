@@ -60,9 +60,9 @@ The output is a binary prediction indicating whether a given wine is of high or 
 
 - **Python** the programming language used for the entire project
 - **Libraries:** 
-  **pandas** -> used for data manipulation and analysis
-  **scikit-learn** -> a popular machine learning library in Phyton that provides tools for data preprocessing, model training and evaluation
-  **Matplotlib and Seaborn** -> employed for data visualization to gain insights into the dataset.
+  * **pandas** -> used for data manipulation and analysis
+  * **scikit-learn** -> a popular machine learning library in Phyton that provides tools for data preprocessing, model training and evaluation
+  * **Matplotlib and Seaborn** -> employed for data visualization to gain insights into the dataset.
 - **Model:** RandomForestClassifier -> machine learning algorithm that can be used for classification task
 - **Documentation:** Jupyter Notebook
 - **Version Control:** GitHub
