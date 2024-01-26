@@ -1,12 +1,8 @@
 import pickle
 import streamlit as st
-import os
-
-script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # LOAD MODEL
-model_path = os.path.join(script_dir, 'quality_wine.sav')
-wine_model = pickle.load(open(model_path, 'rb'))
+wine_model = pickle.load(open('quality_wine.sav', 'rb'))
 
 # WEB TITLE
 st.title('Quality Wine Data Mining')
@@ -63,11 +59,3 @@ st.markdown(
     Always validate the results and consider using a more robust model for production use.*
     """
 )
-
-
-
-
-
-
-
-
