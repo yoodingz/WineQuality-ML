@@ -37,13 +37,13 @@ This project focuses on building a machine learning model to predict the quality
 
 ## Output Definition
 
-The output is a binary prediction indicating whether a given wine is of high or low quality.
+The output values for the wine quality prediction system typically represent the predicted quality of wine based on the input features by the user. in this context, the predicted wine quality is expected to fall within the range of 1 to 10. Each discrete value in this range is an indication of the system's assessment of the quality of the wine, with higher values generally representing better quality.
 
 ## Example Output
 
-- Instance 1: Predicted Quality - 1 (High Quality)
-- Instance 2: Predicted Quality - 0 (Low Quality)
-- ...
+- Instance 1: Predicted Quality 1 to 3 (Poor Quality)
+- Instance 2: Predicted Quality 4 to 6 (Moderate Quality)
+- Instance 3: Predicted Quality 7 to 10 (High Quality)
 
 ## Methods Without ML
 
