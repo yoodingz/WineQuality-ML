@@ -66,3 +66,19 @@ The output values for the wine quality prediction system typically represent the
    - **Pickle** the pickle module is employed for loading a pre-trained machine learning model. It allows the model stored in the 'quality_wine.sav' file to be loaded back into memory for making predictions.
 - **Additional libraries**
    - **scikit-learn** this is a common library for machine learning tasks in Phyton used to train the machine learning model
+## Usage Instructions for Wine Quality Data Mining:
+
+1. **After successfully running the Python code in Streamlit, the Wine Quality Data Mining interface will appear.**
+2. **Input the required numerical data such as:**
+   - fixed acidity,
+   - volatile acidity,
+   - citric acid,
+   - residual sugar,
+   - chlorides,
+   - free sulfur dioxide,
+   - total sulfur dioxide,
+   - density,
+   - pH,
+   - sulphates,
+   - and alcohol quality.
+3. **Once all the data is entered, click on the "Predict Wine Quality" button. Subsequently, the predicted quality of the inputted wine data will be displayed.**
