@@ -66,10 +66,26 @@ The output values for the wine quality prediction system typically represent the
    - **Pickle** the pickle module is employed for loading a pre-trained machine learning model. It allows the model stored in the 'quality_wine.sav' file to be loaded back into memory for making predictions.
 - **Additional libraries**
    - **scikit-learn** this is a common library for machine learning tasks in Phyton used to train the machine learning model
+ 
+## Configuration Instructions
+
+1. **Install Streamlit**
+   ensure taht streamlit installed. You can install itu using the following command in your terminal or command prompt **pip install streamlit**
+2. **Install Required Packages**
+   Make sure you have the nessecary Phyton packages specified in your code. if you haven't installed them yet, you can use the following command to install them **pip install pandas numpy scikit-learn**
+3. **Open VS Code**
+   run the provided code in a Phyton file
+4. **Open Terminal in VS Code**
+   Open the terminal in VS Code by selecting 'View' -> 'Terminal' from the top menu.
+5. **Run the Streamlit App**
+   execute the following command in the terminal to run the STreamlit app : **streamlit run app.py**
+6. **Interact with the App**
+   Enter values in the input fields, click the "Predict Wine Quality" button, and observe the predictions.
+    
 ## Usage Instructions for Wine Quality Data Mining:
 
-1. **After successfully running the Python code in Streamlit, the Wine Quality Data Mining interface will appear.**
-2. **Input the required numerical data such as:**
+1. After successfully running the Python code in Streamlit, the Wine Quality Data Mining interface will appear.
+2. Input the required numerical data such as:
    - fixed acidity,
    - volatile acidity,
    - citric acid,
@@ -81,4 +97,4 @@ The output values for the wine quality prediction system typically represent the
    - pH,
    - sulphates,
    - and alcohol quality.
-3. **Once all the data is entered, click on the "Predict Wine Quality" button. Subsequently, the predicted quality of the inputted wine data will be displayed.**
+3. Once all the data is entered, click on the "Predict Wine Quality" button. Subsequently, the predicted quality of the inputted wine data will be displayed.
