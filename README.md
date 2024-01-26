@@ -58,11 +58,11 @@ The output is a binary prediction indicating whether a given wine is of high or 
 
 ## System Architecture (Tech Stack)
 
-- **Python** the programming language used for the entire project
-- **Libraries:** 
-  * **pandas** -> used for data manipulation and analysis
-  * **scikit-learn** -> a popular machine learning library in Phyton that provides tools for data preprocessing, model training and evaluation
-  * **Matplotlib and Seaborn** -> employed for data visualization to gain insights into the dataset.
-- **Model:** RandomForestClassifier -> machine learning algorithm that can be used for classification task
-- **Documentation:** Jupyter Notebook
-- **Version Control:** GitHub
+- **Programing Language**
+   - **Phyton** : the entire application is written in Phyton, as evident from the code syntax and structure.
+- **Web Framework**
+   - **Streamlit** the web framework used for building the user interface.
+- **Model Loading**
+   - **Pickle** the pickle module is employed for loading a pre-trained machine learning model. It allows the model stored in the 'quality_wine.sav' file to be loaded back into memory for making predictions.
+- **Additional libraries**
+   - **scikit-learn** this is a common library for machine learning tasks in Phyton used to train the machine learning model
